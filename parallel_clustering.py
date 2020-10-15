@@ -60,6 +60,8 @@ import os
 import auxiliary as a
 import json
 import codecs
+import sys
+sys.path.append("./clustering_scripts")
 from main2 import doIt
 import pickle
 import numpy as np
